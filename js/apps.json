@@ -1,0 +1,94 @@
+{
+  "com.sand.airdroid": {
+    "title": "AirDroid",
+    "description": "Easily send files from your computer to your Android phone. Send SMS from your favorite web browser with ease."
+  },
+  "com.piriform.ccleaner": {
+    "title": "CCleaner",
+    "description": "When your available internal phone memory is lacking, it helps you to clean the crap."
+  },
+  "com.dropbox.android": {
+    "title": "Dropbox",
+    "description": "Access your files from the cloud on your mobile device."
+  },
+  "com.facebook.katana": {
+    "title": "Facebook",
+    "description": "Enjoy social media on the go."
+  },
+  "com.facebook.orca": {
+    "title": "Facebook Messenger",
+    "description": "The heart of Facebook."
+  },
+  "eu.gingermobile": {
+    "title": "Ginger",
+    "description": "Read public transport timetables for major Polish cities."
+  },
+  "com.google.android.gm": {
+    "title": "Gmail",
+    "description": "Your pocket main inbox."
+  },
+  "com.google.android.calendar": {
+    "title": "Google Calendar",
+    "description": "Replace your stock calendar and never look back."
+  },
+  "com.google.android.GoogleCamera": {
+    "title": "Google Camera",
+    "description": "Fancy camera from Google."
+  },
+  "com.android.chrome": {
+    "title": "Google Chrome",
+    "description": "A must have mobile web browser."
+  },
+  "com.google.android.apps.docs": {
+    "title": "Google Drive",
+    "description": "Read and edit your online documents."
+  },
+  "com.google.android.keep": {
+    "title": "Google Keep",
+    "description": "Keep your notes always with you."
+  },
+  "com.google.android.apps.maps": {
+    "title": "Google Maps",
+    "description": "Don't get lost in the wild."
+  },
+  "com.google.android.apps.translate": {
+    "title": "Google Translate",
+    "description": "It doesn't do the whole translation work for you, but it's a good start. Check your spelling anytime you want."
+  },
+  "org.cohortor.gstrings": {
+    "title": "gStrings",
+    "description": "Best guitar tuner out there!"
+  },
+  "com.citynav.jakdojade.pl.android": {
+    "title": "jakdojade.pl",
+    "description": "Find best public transport routes in major Polish cities without problems."
+  },
+  "com.pmp.biblia": {
+    "title": "Pismo Święte",
+    "description": "Great free bible/prayer app in Polish."
+  },
+  "com.skype.raider": {
+    "title": "Skype",
+    "description": "Hopefully it will replace my phone calls in the future."
+  },
+  "com.stt.android": {
+    "title": "Sports Tracker",
+    "description": "Intuitive and good looking sports tracking app."
+  },
+  "com.spotify.music": {
+    "title": "Spotify",
+    "description": "My favorite music app. Spotify has a catalog of over 20 million songs. With Spotify Premium you can download your music for offline listening (even music from outside the catalog)."
+  },
+  "com.nuance.swype.dtc": {
+    "title": "Swype",
+    "description": "Best keyboard for touch devices."
+  },
+  "com.textra": {
+    "title": "Textra",
+    "description": "Feature rich SMS/MMS app replacement."
+  },
+  "ch.bitspin.timely": {
+    "title": "Timely",
+    "description": "Fabulously looking alarm clock."
+  }
+}
