@@ -1,15 +1,15 @@
 Handlebars.registerHelper('ifShort', function (val, options) {
     var many = val.split(/\.|!|\?/).length - 1 > 1;
     var long = val.length > 60;
-    return !many && !long ? options.fn(this) : options.inverse(this)
+    return !many && !long ? options.fn(this) : options.inverse(this);
 });
 
 Handlebars.registerHelper('link', function (val) {
-    return 'https://play.google.com/store/apps/details?id=' + val
+    return 'https://play.google.com/store/apps/details?id=' + val;
 });
 
 Handlebars.registerHelper('img', function (val) {
-    return './img/' + val
+    return './img/' + val + '.webp';
 });
 
 var apps = $.getJSON('./js/apps.json', function (apps) {
