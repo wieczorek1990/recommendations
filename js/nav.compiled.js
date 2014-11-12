@@ -6,8 +6,6 @@ templates['nav'] = template({"1":function(depth0,helpers,partials,data) {
   if (stack1 != null) { buffer += stack1; }
   return buffer + "            <a href="
     + escapeExpression(((helpers.href || (depth0 && depth0.href) || helperMissing).call(depth0, (data && data.key), {"name":"href","hash":{},"data":data})))
-    + " data-platform="
-    + escapeExpression(lambda((data && data.key), depth0))
     + ">"
     + escapeExpression(lambda((depth0 != null ? depth0.title : depth0), depth0))
     + "</a>\n        </li>\n";

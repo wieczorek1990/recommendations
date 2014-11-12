@@ -1,22 +1,50 @@
-function sortApps(json) {
-    var apps = [];
+// Sorts json
+
+function sortItemsByFirstField(json, fields) {
+    var items = [];
     for (var name in json) {
-        app = json[name];
-        apps.push([name, app.title, app.description]);
+        item = json[name];
+        var array = [name];
+        for (var index in fields) {
+            var field = fields[index];
+            array.push(item[field]);
+        }
+        items.push(array);
     }
-    apps.sort(function (a, b) {
+    items.sort(function (a, b) {
         return a[1].toLowerCase().localeCompare(b[1].toLowerCase());
     });
     result = {};
-    for (var i in apps) {
-        var app = apps[i];
-        result[app[0]] = {
-            "title": app[1],
-            "description": app[2]
+    for (var i in items) {
+        var item = items[i];
+        var hash = {};
+        var i = 1;
+        for (var index in fields) {
+            var field = fields[index];
+            hash[field] = item[i];
+            i += 1;
         }
+        result[item[0]] = hash;
     }
     return result;
 }
+var platforms = {
+    'android': ['title', 'description'],
+    'chrome': ['title', 'description', 'id'],
+    'debian': ['title', 'description', 'link', 'image'],
+    'windows': ['title', 'description', 'link'],
+    'platforms': ['title', 'description', 'link', 'lead']
+};
 
-var json = JSON.stringify(sortApps(require('../js/android.json')));
-console.log(json);
+for (var platform in platforms) {
+    try {
+        var file = require('../js/' + platform + '.json');
+        var fields = platforms[platform];
+        var json = JSON.stringify(sortItemsByFirstField(file, fields));
+        console.log(platform + ': ' );
+        console.log(json);
+    } catch (err) {
+        console.log(err.message);
+        //console.log(err.stack)
+    }
+}

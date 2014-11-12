@@ -21,35 +21,45 @@ if (!String.prototype.format) {
     };
 }
 
-Handlebars.registerHelper('ifShort', function (val, options) {
-    var many = val.split(/\.|!|\?/).length - 1 > 1;
-    var long = val.length > 60;
-    return !many && !long ? options.fn(this) : options.inverse(this);
+Handlebars.registerHelper('ifShort', function (string, options) {
+    //var many = string.split(/\.|!|\?/).length - 1 > 1;
+    var long = string.length > 70;
+    return /*!many && */!long ? options.fn(this) : options.inverse(this);
 });
 
-Handlebars.registerHelper('link', function (val, platform, link) {
-    switch (platform) {
-        case 'android':
-            return 'https://play.google.com/store/apps/details?id=' + val;
-        case 'platforms':
-            return link;
+Handlebars.registerHelper('ifImage', function (image, platform, options) {
+    if (platform != 'debian') {
+        return options.fn(this);
+    } else if (image) {
+        return options.fn(this);
+    } else {
+        return options.inverse(this);
     }
 });
 
-Handlebars.registerHelper('img', function (val, platform) {
-    return './img/{platform}/{val}.webp'.supplant({
-        platform: platform,
-        val: val
-    });
+Handlebars.registerHelper('link', function (item, platform, _this) {
+    switch (platform) {
+        case 'android':
+            return 'https://play.google.com/store/apps/details?id=' + item;
+        case 'chrome':
+            return 'https://chrome.google.com/webstore/detail/' + item + '/' + _this.id;
+        case 'platforms':
+            return '#' + item;
+        default:
+            return _this.link;
+    }
 });
 
-Handlebars.registerHelper('col', function (val) {
-    return 'col-lg-' + 12 / val;
+Handlebars.registerHelper('img', function (item, platform) {
+    return './img/{0}/{1}.webp'.supplant([platform, item]);
+});
+
+Handlebars.registerHelper('col', function (colSize) {
+    return 'col-lg-' + 12 / colSize;
 });
 
 Handlebars.registerHelper('size', function (platform) {
-    var base = 170;
-    return platform == 'platforms' ? base * 1.5 : base;
+    return platform == 'platforms' ? 255 : 170;
 });
 
 Handlebars.registerHelper('href', function (platform) {
@@ -59,10 +69,22 @@ Handlebars.registerHelper('href', function (platform) {
     return '#' + platform;
 });
 
-Handlebars.registerHelper("debug", function (opt) {
-    console.log(opt);
+Handlebars.registerHelper('go', function (platform) {
+    if (platform == 'platforms') {
+        return 'See recommendations »';
+    }
+    return 'Install »';
+});
+
+Handlebars.registerHelper("debug", function (arg) {
+    console.log(arg);
     console.log(this);
 });
+
+function getPlatform() {
+    var hash = window.location.hash.substring(1);
+    return hash == '' ? 'platforms' : hash;
+}
 
 function toRows(data, rowSize) {
     var rows = [];
@@ -141,7 +163,7 @@ function load(platforms) {
         hwaccel: true
     };
     var spinner = new Spinner(opts).spin($('body').get(0));
-    var platform = $('#recommendations').data('platform');
+    var platform = getPlatform();
     var colSize = platform == 'platforms' ? 4 : 3;
     $.getJSON('./js/' + platform + '.json')
         .done(function (items) {
@@ -154,27 +176,28 @@ function load(platforms) {
             spinner.stop();
         })
         .fail(function () {
-            $('#recommendations').html('<h2 class="text-center">Nothing here yet</h2>')
+            $('#recommendations').html('<h2 class="text-center">Nothing here yet</h2>');
             spinner.stop();
         });
     $('.lead').text(platforms[platform].lead);
 }
 
+function switchSite(platforms) {
+    var href = Handlebars.helpers.href(getPlatform());
+    $('.nav li.active').removeClass('active');
+    var target = $('.nav a[href="' + href + '"]');
+    target.parent().addClass('active');
+    load(platforms);
+}
+
 $(document).ready(function () {
     $.getJSON('./js/platforms.json', function (platforms) {
-        var hash = window.location.hash.substring(1);
-        var platform = hash == '' ? 'platforms' : hash;
-        $('#recommendations').data('platform', platform);
+        var platform = getPlatform();
         platforms = $.extend({platforms: {title: 'Home', lead: 'These are the software platforms I use'}}, platforms);
         platforms[platform].isActive = true;
         $('.masthead').html(Handlebars.templates.nav({links: platforms}));
-        $('.nav a').click(function () {
-            $('.nav li.active').removeClass('active');
-            var target = $(this);
-            target.parent().addClass('active');
-            var platform = target.data('platform');
-            $('#recommendations').data('platform', platform);
-            load(platforms);
+        $(window).on('hashchange', function() {
+            switchSite(platforms);
         });
         load(platforms);
     });

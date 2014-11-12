@@ -3,13 +3,25 @@
     "title": "AirDroid",
     "description": "Easily send files from your computer to your Android phone. Send SMS from your favorite web browser with ease."
   },
+  "pl.allegro": {
+    "title": "Allegro",
+    "description": "Check product prices in Poland easily."
+  },
   "com.piriform.ccleaner": {
     "title": "CCleaner",
     "description": "When your available internal phone memory is lacking, it helps you to clean the crap."
   },
+  "com.cleanmaster.mguard": {
+    "title": "Clean Master Phone Boost",
+    "description": "Extraordinarily looking cleaner."
+  },
   "com.dropbox.android": {
     "title": "Dropbox",
     "description": "Access your files from the cloud on your mobile device."
+  },
+  "com.evernote": {
+    "title": "Evernote",
+    "description": "Sophisticated notepad."
   },
   "com.facebook.katana": {
     "title": "Facebook",
@@ -19,13 +31,13 @@
     "title": "Facebook Messenger",
     "description": "The heart of Facebook."
   },
-  "eu.gingermobile": {
-    "title": "Ginger",
-    "description": "Read public transport timetables for major Polish cities."
+  "com.github.mobile": {
+    "title": "GitHub",
+    "description": "GitHub mobile client. What else do you want?"
   },
   "com.google.android.gm": {
     "title": "Gmail",
-    "description": "Your pocket main inbox."
+    "description": "Your pocket inbox."
   },
   "com.google.android.calendar": {
     "title": "Google Calendar",
@@ -51,6 +63,10 @@
     "title": "Google Maps",
     "description": "Don't get lost in the wild."
   },
+  "com.google.android.launcher": {
+    "title": "Google Now Launcher",
+    "description": "Replace your ugly looking apps launcher with this one."
+  },
   "com.google.android.apps.translate": {
     "title": "Google Translate",
     "description": "It doesn't do the whole translation work for you, but it's a good start. Check your spelling anytime you want."
@@ -59,6 +75,10 @@
     "title": "gStrings",
     "description": "Best guitar tuner out there!"
   },
+  "com.irccloud.android": {
+    "title": "IRCCloud",
+    "description": "Best internet relay chat client on the market."
+  },
   "com.citynav.jakdojade.pl.android": {
     "title": "jakdojade.pl",
     "description": "Find best public transport routes in major Polish cities without problems."
@@ -66,6 +86,18 @@
   "com.pmp.biblia": {
     "title": "Pismo Święte",
     "description": "Great free bible/prayer app in Polish."
+  },
+  "com.phyora.apps.reddit_now": {
+    "title": "Reddit Now",
+    "description": "Good looking reddit.com client."
+  },
+  "com.simpler.contacts": {
+    "title": "Simpler Contacts & Dialer",
+    "description": "Simple contacts replacement."
+  },
+  "com.simpler.dialer": {
+    "title": "Simpler Dialer",
+    "description": "Simple dialer replacement."
   },
   "com.skype.raider": {
     "title": "Skype",
@@ -90,5 +122,13 @@
   "ch.bitspin.timely": {
     "title": "Timely",
     "description": "Fabulously looking alarm clock."
+  },
+  "com.colinmcdonough.android.torchics": {
+    "title": "Torch LED Flashlight",
+    "description": "Allow your screen to become a big on/off button for your mobile phone camera flashlight."
+  },
+  "org.wikipedia": {
+    "title": "Wikipedia",
+    "description": "Free encyclopedia in your pocket."
   }
 }

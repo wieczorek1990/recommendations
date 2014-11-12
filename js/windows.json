@@ -1,0 +1,117 @@
+{
+  "7zip": {
+    "title": "7-Zip",
+    "description": "Archives serve good as containers.",
+    "link": "http://www.7-zip.org/"
+  },
+  "adobe-reader": {
+    "title": "Adobe Reader",
+    "description": "PDF viewer.",
+    "link": "http://get.adobe.com/pl/reader/"
+  },
+  "ccleaner": {
+    "title": "CCleaner",
+    "description": "Clean your crap.",
+    "link": "http://www.piriform.com/ccleaner"
+  },
+  "cutepdf": {
+    "title": "CutePDF Writer",
+    "description": "Save PDF with printing dialog.",
+    "link": "http://www.cutepdf.com/Products/CutePDF/writer.asp"
+  },
+  "defraggler": {
+    "title": "Defraggler",
+    "description": "Defragment your hard drives.",
+    "link": "http://www.piriform.com/defraggler"
+  },
+  "dropbox": {
+    "title": "Dropbox",
+    "description": "Store files in the cloud.",
+    "link": "https://www.dropbox.com/"
+  },
+  "filehippo": {
+    "title": "Filehippo App Manager",
+    "description": "Manage your apps versions.",
+    "link": "http://www.filehippo.com/download_update_checker/"
+  },
+  "foobar": {
+    "title": "foobar2000",
+    "description": "Minimalist audio player.",
+    "link": "http://www.foobar2000.org/"
+  },
+  "gedit": {
+    "title": "gedit",
+    "description": "Convenient text editor.",
+    "link": "http://blogs.gnome.org/nacho/2014/07/30/gedit-3-for-windows/"
+  },
+  "git": {
+    "title": "Git",
+    "description": "Version everything.",
+    "link": "http://git-scm.com/"
+  },
+  "google-chrome": {
+    "title": "Google Chrome Canary",
+    "description": "Latest Google Chrome build.",
+    "link": "https://www.google.com/intl/pl/chrome/browser/canary.html"
+  },
+  "infra-recorder": {
+    "title": "InfraRecoreder",
+    "description": "Simple disc burner.",
+    "link": "http://infrarecorder.org/"
+  },
+  "kyodai-mahjongg": {
+    "title": "Kyodai Mahjongg",
+    "description": "Best solitary games.",
+    "link": "http://cynagames.com/"
+  },
+  "lastfm": {
+    "title": "Last.fm Scrobbler",
+    "description": "Scrobble what you listen to.",
+    "link": "http://www.lastfm.pl/download"
+  },
+  "libreoffice": {
+    "title": "LibreOffice",
+    "description": "Office apps for free.",
+    "link": "http://www.libreoffice.org/"
+  },
+  "msoffice": {
+    "title": "Microsoft Office",
+    "description": "Office apps from Microsoft.",
+    "link": "http://office.microsoft.com/"
+  },
+  "paint.net": {
+    "title": "paint.net",
+    "description": "Great Paint replacement.",
+    "link": "http://www.getpaint.net/"
+  },
+  "skype": {
+    "title": "Skype",
+    "description": "My favourite music streaming platform.",
+    "link": "http://spotify.com/"
+  },
+  "spotify": {
+    "title": "Spotify",
+    "description": "My favourite music streaming platform.",
+    "link": "https://www.spotify.com/"
+  },
+  "transmission": {
+    "title": "Transmission",
+    "description": "Nice torrent downloader.",
+    "link": "http://sourceforge.net/projects/trqtw/"
+  },
+  "truecrypt": {
+    "title": "TrueCrypt",
+    "description": "Keep your private things secure.",
+    "link": "https://truecrypt.ch/"
+  },
+  "unlocker": {
+    "title": "Unlocker",
+    "description": "Know that feeling when you cannot delete a file? Try this one.",
+    "link": "http://www.emptyloop.com/unlocker/"
+  },
+  "vlc": {
+    "title": "VLC media player",
+    "description": "Play any movie.",
+    "link": "http://www.videolan.org/"
+  }
+}

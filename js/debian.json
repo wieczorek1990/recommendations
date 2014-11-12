@@ -1,0 +1,216 @@
+{
+  "banshee": {
+    "title": "Banshee",
+    "description": "Good offline music player.",
+    "link": "http://banshee.fm/",
+    "image": true
+  },
+  "dropbox": {
+    "title": "Dropbox",
+    "description": "Store files in the cloud.",
+    "link": "https://www.dropbox.com/",
+    "image": true
+  },
+  "soundconverter": {
+    "title": "GNOME Sound Converter",
+    "description": "Convert your music files to many formats.",
+    "link": "http://soundconverter.org/",
+    "image": true
+  },
+  "gnome-sound-recorder": {
+    "title": "GNOME Sound Recorder",
+    "description": "Very basic sound recorder.",
+    "link": "https://wiki.gnome.org/Design/Apps/SoundRecorder",
+    "image": true
+  },
+  "vim": {
+    "title": "GNOME Vim",
+    "description": "Powerful text editor.",
+    "link": "http://www.vim.org/",
+    "image": true
+  },
+  "google-chrome": {
+    "title": "Google Chrome Dev",
+    "description": "Best browser ever.",
+    "link": "https://www.google.com/chrome/browser/?platform=linux&extra=devchannel",
+    "image": true
+  },
+  "klavaro": {
+    "title": "Klavaro",
+    "description": "Learn to type.",
+    "link": "http://klavaro.sourceforge.net/",
+    "image": true
+  },
+  "meld": {
+    "title": "Meld",
+    "description": "Visual changes merger.",
+    "link": "http://meldmerge.org/",
+    "image": true
+  },
+  "picard": {
+    "title": "Picard",
+    "description": "Tag your music with help from musicbrainz.org.",
+    "link": "https://picard.musicbrainz.org/",
+    "image": true
+  },
+  "prey": {
+    "title": "Prey",
+    "description": "Set a trap for thieves.",
+    "link": "https://preyproject.com/",
+    "image": true
+  },
+  "rubymine": {
+    "title": "RubyMine",
+    "description": "JetBrains editor for Ruby.",
+    "link": "https://www.jetbrains.com/ruby/",
+    "image": true
+  },
+  "skype": {
+    "title": "Skype",
+    "description": "IM for chat, sound and video.",
+    "link": "http://www.skype.com/",
+    "image": true
+  },
+  "solfege": {
+    "title": "GNU Solfege",
+    "description": "Learn music theory and practice.",
+    "link": "http://www.solfege.org/",
+    "image": true
+  },
+  "spotify": {
+    "title": "Spotify",
+    "description": "My favourite music streaming platform.",
+    "link": "http://spotify.com/",
+    "image": true
+  },
+  "stellarium": {
+    "title": "Stellarium",
+    "description": "Sxplore the night sky.",
+    "link": "http://www.stellarium.org/",
+    "image": true
+  },
+  "truecrypt": {
+    "title": "TrueCrypt",
+    "description": "Keep your private things secure.",
+    "link": "https://truecrypt.ch/",
+    "image": true
+  },
+  "tuxguitar": {
+    "title": "TuxGuitar",
+    "description": "Free tabulature editor.",
+    "link": "http://sourceforge.net/projects/tuxguitar/",
+    "image": true
+  },
+  "unetbootin": {
+    "title": "UNetbootin",
+    "description": "Helps you to make bootable USB drives.",
+    "link": "http://unetbootin.sourceforge.net/",
+    "image": true
+  },
+  "virtualbox": {
+    "title": "VirtualBox",
+    "description": "Virtualize some OSs.",
+    "link": "https://www.virtualbox.org/",
+    "image": true
+  },
+  "vlc": {
+    "title": "VLC media player",
+    "description": "Play any movie.",
+    "link": "http://www.videolan.org/",
+    "image": true
+  },
+  "checkinstall": {
+    "title": "checkinstall",
+    "description": "Manage your make builds with dpkg.",
+    "link": "http://asic-linux.com.mx/~izto/checkinstall/"
+  },
+  "cloc": {
+    "title": "cloc",
+    "description": "Count lines of code.",
+    "link": "http://cloc.sourceforge.net/"
+  },
+  "curl": {
+    "title": "curl",
+    "description": "Download from the web.",
+    "link": "http://curl.haxx.se/"
+  },
+  "disper": {
+    "title": "disper",
+    "description": "Switch displays with ease.",
+    "link": "http://willem.engen.nl/projects/disper/",
+    "image": true
+  },
+  "elinks": {
+    "title": "elinks",
+    "description": "Browse in text mode from terminal.",
+    "link": "http://elinks.or.cz/"
+  },
+  "fish": {
+    "title": "fish",
+    "description": "BASH replacement. Simple syntax, colorful prompt, easy to pick up.",
+    "link": "http://fishshell.com/",
+    "image": true
+  },
+  "flac": {
+    "title": "flac",
+    "description": "because music should be distributed in purest form.",
+    "link": "https://xiph.org/flac/",
+    "image": true
+  },
+  "git": {
+    "title": "git",
+    "description": "Version everything.",
+    "link": "http://git-scm.com/",
+    "image": true
+  },
+  "lame": {
+    "title": "lame",
+    "description": "Sometimes you need those MP3, right?",
+    "link": "http://lame.sourceforge.net/",
+    "image": true
+  },
+  "parallel": {
+    "title": "parallel",
+    "description": "Run tasks in parallel.",
+    "link": "http://www.gnu.org/software/parallel/",
+    "image": true
+  },
+  "sox": {
+    "title": "sox",
+    "description": "Audio converter for humans.",
+    "link": "http://sox.sourceforge.net/",
+    "image": true
+  },
+  "sponge": {
+    "title": "sponge",
+    "description": "Soak up all piped output to processed file with no harm.",
+    "link": "https://joeyh.name/code/moreutils/"
+  },
+  "subversion": {
+    "title": "subversion",
+    "description": "You might need this versioning system for old apps.",
+    "link": "https://subversion.apache.org/",
+    "image": true
+  },
+  "timidity": {
+    "title": "timidity",
+    "description": "MIDI sequencer.",
+    "link": "http://timidity.sourceforge.net/",
+    "image": true
+  },
+  "trash-cli": {
+    "title": "trash-cli",
+    "description": "rm -rf causes too much trouble. Trust me.",
+    "link": "https://github.com/andreafrancia/trash-cli"
+  },
+  "tree": {
+    "title": "tree",
+    "description": "Where am I?",
+    "link": "http://mama.indstate.edu/users/ice/tree/"
+  },
+  "xsel": {
+    "title": "xsel",
+    "description": "Manipulate your selections.",
+    "link": "http://www.vergenet.net/~conrad/software/xsel/"
+  }
+}

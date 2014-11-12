@@ -4,10 +4,13 @@
             <div class={{col ../../colSize}}>
                 <h2 class="text-center">{{this.title}}</h2>
 
-                <a href="{{link @key ../../platform this.link}}">
-                    <img class="img-responsive center-block" src={{img @key ../../platform}} alt={{this.title}}
-                         height={{size ../../platform}} width={{size ../../platform}}>
-                </a>
+                {{#ifImage this.image ../../platform}}
+                    <a href="{{link @key ../../../platform this}}">
+                        <img class="img-responsive center-block"
+                             style="width: {{size ../../../platform}}px; height: auto;"
+                             src={{img @key ../../../platform}} alt={{this.title}}>
+                    </a>
+                {{/ifImage}}
 
                 {{#ifShort this.description}}
                     <p class="lead text-center">{{this.description}}</p>
@@ -16,8 +19,8 @@
                 {{/ifShort}}
 
                 <p class="text-center">
-                    <a class="btn btn-primary" href={{link @key ../../platform this.link}} role="button">
-                        Install »
+                    <a class="btn btn-primary" href={{link @key ../../platform this}} role="button">
+                        {{go ../../platform}}
                     </a>
                 </p>
             </div>

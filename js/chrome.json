@@ -1,0 +1,42 @@
+{
+  "adblock-plus": {
+    "title": "Adblock Plus",
+    "description": "No adds, no distractions.",
+    "id": "cfhdojbkjhnklbpkdaibdccddilifddb"
+  },
+  "bookmark-checker": {
+    "title": "Bookmark Checker",
+    "description": "Get rid of no longer available bookmarks.",
+    "id": "lnboppjpcdnckcklbmjmdahfkpmgglec"
+  },
+  "clearly": {
+    "title": "Clearly",
+    "description": "Customize your reading experience.",
+    "id": "iooicodkiihhpojmmeghjclgihfjdjhj"
+  },
+  "data-compression-proxy": {
+    "title": "Data Compression Proxy",
+    "description": "Download less when browsing the web.",
+    "id": "ajfiodhbiellfpcjjedhmmmpeeaebmep"
+  },
+  "lastfm-scrobbler": {
+    "title": "Last.fm Scrobbler",
+    "description": "Scrobble to Last.fm on Youtube and many other sites.",
+    "id": "hhinaapppaileiechjoiifaancjggfjm"
+  },
+  "show-apps-in-new-tab": {
+    "title": "Show Apps in new tab",
+    "description": "Replace new tab interface with apps launcher.",
+    "id": "nohbdifokmdgjcbbeobglcbaifinhfip"
+  },
+  "text-mode": {
+    "title": "Text Mode",
+    "description": "Browse the web in text mode without images.",
+    "id": "adelhekhakakocomdfejiipdnaadiiib"
+  },
+  "vimium": {
+    "title": "Vimium",
+    "description": "Vim like browsing experience.",
+    "id": "dbepggeogbaibhgnhhndojpepiihcmeb"
+  }
+}
