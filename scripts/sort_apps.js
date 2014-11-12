@@ -18,5 +18,5 @@ function sortApps(json) {
     return result;
 }
 
-var json = JSON.stringify(sortApps(require('../js/apps.json')));
+var json = JSON.stringify(sortApps(require('../js/android.json')));
 console.log(json);

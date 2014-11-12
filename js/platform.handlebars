@@ -1,10 +1,10 @@
 {{#each rows}}
     <div class="row">
         {{#each this}}
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <h2 class="text-center">{{this.title}}</h2>
 
-                <a href={{link @key}}>
+                <a href={{this.link}}>
                     <img class="img-responsive center-block" src={{img @key}} alt={{this.title}} height="170"
                          width="170">
                 </a>
@@ -15,7 +15,7 @@
                     <p class="lead text-justify">{{this.description}}</p>
                 {{/ifShort}}
 
-                <p class="text-center"><a class="btn btn-primary" href={{link @key}} role="button">Install »</a></p>
+                <p class="text-center"><a class="btn btn-primary" href={{this.link}} role="button">Install »</a></p>
             </div>
         {{/each}}
     </div>

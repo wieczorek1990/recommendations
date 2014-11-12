@@ -53,7 +53,7 @@ function downloadImage(callback, app) {
     });
 }
 
-var apps = require('../js/apps.json');
+var apps = require('../js/android.json');
 var downloads = [];
 for (var app in apps) {
     downloads.push(downloadImage)

@@ -16,7 +16,7 @@
       document.createTextNode(
         '@-ms-viewport{width:auto!important}'
       )
-    )
+    );
     document.querySelector('head').appendChild(msViewportStyle)
   }
 })();

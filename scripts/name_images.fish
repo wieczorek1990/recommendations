@@ -7,21 +7,19 @@
 # Put you vwebp from https://developers.google.com/speed/webp/download into your PATH
 # e.g. `export PATH=${PATH}:~/Downloads/libwebp/bin`
 
-if [ "$#" -ne 1 ]
-then
-  echo 'Usage: bash name_images.sh images_directory'
-fi
-dir="$1"
-cd "$dir"
+set argc (count argv)
+if [ $argc -ne 1 ]
+  echo 'Usage: fish name_images.fish images_directory'
+end
+dir=$argv[1]
+cd $dir
 for file in *
-do
-  vwebp "$file"
+  vwebp $file
   echo 'Name:'
   read name
-  if [ -z "$name" ]
-  then
+  if [ -z $name ]
     continue
   else
-    mv "$file" "${name}.webp"
-  fi
-done
+    mv $file {$name}.webp
+  end
+end

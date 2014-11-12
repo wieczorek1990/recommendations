@@ -1,0 +1,26 @@
+{{#each rows}}
+    <div class="row">
+        {{#each this}}
+            <div class={{col ../../colSize}}>
+                <h2 class="text-center">{{this.title}}</h2>
+
+                <a href="{{link @key ../../platform this.link}}">
+                    <img class="img-responsive center-block" src={{img @key ../../platform}} alt={{this.title}}
+                         height={{size ../../platform}} width={{size ../../platform}}>
+                </a>
+
+                {{#ifShort this.description}}
+                    <p class="lead text-center">{{this.description}}</p>
+                {{else}}
+                    <p class="lead text-justify">{{this.description}}</p>
+                {{/ifShort}}
+
+                <p class="text-center">
+                    <a class="btn btn-primary" href={{link @key ../../platform this.link}} role="button">
+                        Install »
+                    </a>
+                </p>
+            </div>
+        {{/each}}
+    </div>
+{{/each}}

@@ -1,0 +1,11 @@
+<ul class="nav nav-justified">
+    {{#each links}}
+        {{#if this.isActive}}
+            <li class="active">
+        {{else}}
+            <li>
+        {{/if}}
+            <a href={{href @key}} data-platform={{@key}}>{{this.title}}</a>
+        </li>
+    {{/each}}
+</ul>

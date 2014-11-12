@@ -1,0 +1,26 @@
+{
+  "android": {
+    "title": "Android",
+    "description": "Google most beloved mobile OS",
+    "link": "http://www.android.com/",
+    "lead": "These are the Android apps I recommend"
+  },
+  "chrome": {
+    "title": "Google Chrome",
+    "description": "Free, fast, extensible and minimalist web browser",
+    "link": "http://www.google.com/chrome/",
+    "lead": "These are the Chrome apps and extensions I recommend"
+  },
+  "debian": {
+    "title": "Debian",
+    "description": "Free OS for your computer",
+    "link": "https://www.debian.org/",
+    "lead": "These are the Debian apps and CLI programs I recommend"
+  },
+  "windows": {
+    "title": "Microsoft Windows",
+    "description": "Standard home OS",
+    "link": "http://windows.microsoft.com/",
+    "lead": "These are the Windows apps I recommend"
+  }
+}
