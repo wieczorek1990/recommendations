@@ -11,17 +11,9 @@
     "title": "CCleaner",
     "description": "When your available internal phone memory is lacking, it helps you to clean the crap."
   },
-  "com.cleanmaster.mguard": {
-    "title": "Clean Master Phone Boost",
-    "description": "Extraordinarily looking cleaner."
-  },
   "com.dropbox.android": {
     "title": "Dropbox",
     "description": "Access your files from the cloud on your mobile device."
-  },
-  "com.evernote": {
-    "title": "Evernote",
-    "description": "Sophisticated notepad."
   },
   "com.facebook.katana": {
     "title": "Facebook",
@@ -51,6 +43,10 @@
     "title": "Google Chrome",
     "description": "A must have mobile web browser."
   },
+  "com.google.android.apps.docs.editors.docs": {
+    "title": "Google Docs",
+    "description": "Read documents stored in Google cloud."
+  },
   "com.google.android.apps.docs": {
     "title": "Google Drive",
     "description": "Read and edit your online documents."
@@ -63,9 +59,17 @@
     "title": "Google Maps",
     "description": "Don't get lost in the wild."
   },
+  "com.google.android.apps.genie.geniewidget": {
+    "title": "Google News & Weather",
+    "description": "Source of popular news."
+  },
   "com.google.android.launcher": {
     "title": "Google Now Launcher",
     "description": "Replace your ugly looking apps launcher with this one."
+  },
+  "com.google.android.tts": {
+    "title": "Google Text-to-Speech",
+    "description": "With it you can hear the pronounciation of many different languages in Google Translate."
   },
   "com.google.android.apps.translate": {
     "title": "Google Translate",
@@ -75,6 +79,10 @@
     "title": "gStrings",
     "description": "Best guitar tuner out there!"
   },
+  "com.google.android.apps.inbox": {
+    "title": "Inbox by Gmail",
+    "description": "Mark messages as ready, delayed or pinned. Enjoy categorized emails."
+  },
   "com.irccloud.android": {
     "title": "IRCCloud",
     "description": "Best internet relay chat client on the market."
@@ -83,6 +91,10 @@
     "title": "jakdojade.pl",
     "description": "Find best public transport routes in major Polish cities without problems."
   },
+  "com.musixmatch.android.lyrify": {
+    "title": "musiXmatch Lyrics",
+    "description": "View lyrics while playing music in for e.g. Spotify."
+  },
   "com.pmp.biblia": {
     "title": "Pismo Święte",
     "description": "Great free bible/prayer app in Polish."
@@ -90,14 +102,6 @@
   "com.phyora.apps.reddit_now": {
     "title": "Reddit Now",
     "description": "Good looking reddit.com client."
-  },
-  "com.simpler.contacts": {
-    "title": "Simpler Contacts & Dialer",
-    "description": "Simple contacts replacement."
-  },
-  "com.simpler.dialer": {
-    "title": "Simpler Dialer",
-    "description": "Simple dialer replacement."
   },
   "com.skype.raider": {
     "title": "Skype",
@@ -111,9 +115,17 @@
     "title": "Spotify",
     "description": "My favorite music app. Spotify has a catalog of over 20 million songs. With Spotify Premium you can download your music for offline listening (even music from outside the catalog)."
   },
+  "eu.chainfire.supersu": {
+    "title": "SuperSU",
+    "description": "Allow applications to request superuser rights."
+  },
   "com.nuance.swype.dtc": {
     "title": "Swype",
     "description": "Best keyboard for touch devices."
+  },
+  "com.jumobile.manager.systemapp": {
+    "title": "System app remover",
+    "description": "Remove bloatware."
   },
   "com.textra": {
     "title": "Textra",
@@ -126,6 +138,10 @@
   "com.colinmcdonough.android.torchics": {
     "title": "Torch LED Flashlight",
     "description": "Allow your screen to become a big on/off button for your mobile phone camera flashlight."
+  },
+  "com.twitter.android": {
+    "title": "Twitter",
+    "description": "Read what is on famous people mind."
   },
   "org.wikipedia": {
     "title": "Wikipedia",
