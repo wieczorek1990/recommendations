@@ -7,6 +7,6 @@ for platform in debian windows
   cd $dir/../img/$platform
   for file in *.png
     set base (basename $file .png)
-    cwebp $file -o {$base}.webp
+    cwebp -q 100 $file -o {$base}.webp
   end
 end

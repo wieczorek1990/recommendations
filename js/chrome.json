@@ -14,11 +14,6 @@
     "description": "Customize your reading experience.",
     "id": "iooicodkiihhpojmmeghjclgihfjdjhj"
   },
-  "data-compression-proxy": {
-    "title": "Data Compression Proxy",
-    "description": "Download less when browsing the web.",
-    "id": "ajfiodhbiellfpcjjedhmmmpeeaebmep"
-  },
   "lastfm-scrobbler": {
     "title": "Last.fm Scrobbler",
     "description": "Scrobble to Last.fm on Youtube and many other sites.",

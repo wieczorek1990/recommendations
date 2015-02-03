@@ -5,10 +5,60 @@
     "link": "http://banshee.fm/",
     "image": true
   },
+  "checkinstall": {
+    "title": "checkinstall",
+    "description": "Manage your make builds with dpkg.",
+    "link": "http://asic-linux.com.mx/~izto/checkinstall/"
+  },
+  "cloc": {
+    "title": "cloc",
+    "description": "Count lines of code.",
+    "link": "http://cloc.sourceforge.net/"
+  },
+  "curl": {
+    "title": "curl",
+    "description": "Download from the web.",
+    "link": "http://curl.haxx.se/"
+  },
+  "deja-dup": {
+    "title": "Deja Dup",
+    "description": "Time machine.",
+    "link": "https://wiki.gnome.org/action/show/Apps/DejaDup",
+    "image": true
+  },
+  "disper": {
+    "title": "disper",
+    "description": "Switch displays with ease.",
+    "link": "http://willem.engen.nl/projects/disper/",
+    "image": true
+  },
   "dropbox": {
     "title": "Dropbox",
     "description": "Store files in the cloud.",
     "link": "https://www.dropbox.com/",
+    "image": true
+  },
+  "elinks": {
+    "title": "elinks",
+    "description": "Browse in text mode from terminal.",
+    "link": "http://elinks.or.cz/"
+  },
+  "fish": {
+    "title": "fish",
+    "description": "BASH replacement. Simple syntax, colorful prompt, easy to pick up.",
+    "link": "http://fishshell.com/",
+    "image": true
+  },
+  "flac": {
+    "title": "flac",
+    "description": "because music should be distributed in purest form.",
+    "link": "https://xiph.org/flac/",
+    "image": true
+  },
+  "git": {
+    "title": "git",
+    "description": "Version everything.",
+    "link": "http://git-scm.com/",
     "image": true
   },
   "soundconverter": {
@@ -29,6 +79,12 @@
     "link": "http://www.vim.org/",
     "image": true
   },
+  "solfege": {
+    "title": "GNU Solfege",
+    "description": "Learn music theory and practice.",
+    "link": "http://www.solfege.org/",
+    "image": true
+  },
   "google-chrome": {
     "title": "Google Chrome Dev",
     "description": "Best browser ever.",
@@ -41,16 +97,34 @@
     "link": "http://klavaro.sourceforge.net/",
     "image": true
   },
+  "lame": {
+    "title": "lame",
+    "description": "Sometimes you need those MP3, right?",
+    "link": "http://lame.sourceforge.net/",
+    "image": true
+  },
   "meld": {
     "title": "Meld",
     "description": "Visual changes merger.",
     "link": "http://meldmerge.org/",
     "image": true
   },
+  "parallel": {
+    "title": "parallel",
+    "description": "Run tasks in parallel.",
+    "link": "http://www.gnu.org/software/parallel/",
+    "image": true
+  },
   "picard": {
     "title": "Picard",
     "description": "Tag your music with help from musicbrainz.org.",
     "link": "https://picard.musicbrainz.org/",
+    "image": true
+  },
+  "poedit": {
+    "title": "Poedit",
+    "description": "gettext translations editor",
+    "link": "http://poedit.net/",
     "image": true
   },
   "prey": {
@@ -71,11 +145,16 @@
     "link": "http://www.skype.com/",
     "image": true
   },
-  "solfege": {
-    "title": "GNU Solfege",
-    "description": "Learn music theory and practice.",
-    "link": "http://www.solfege.org/",
+  "sox": {
+    "title": "sox",
+    "description": "Audio converter for humans.",
+    "link": "http://sox.sourceforge.net/",
     "image": true
+  },
+  "sponge": {
+    "title": "sponge",
+    "description": "Soak up all piped output to processed file with no harm.",
+    "link": "https://joeyh.name/code/moreutils/"
   },
   "spotify": {
     "title": "Spotify",
@@ -88,6 +167,28 @@
     "description": "Sxplore the night sky.",
     "link": "http://www.stellarium.org/",
     "image": true
+  },
+  "subversion": {
+    "title": "subversion",
+    "description": "You might need this versioning system for old apps.",
+    "link": "https://subversion.apache.org/",
+    "image": true
+  },
+  "timidity": {
+    "title": "timidity",
+    "description": "MIDI sequencer.",
+    "link": "http://timidity.sourceforge.net/",
+    "image": true
+  },
+  "trash-cli": {
+    "title": "trash-cli",
+    "description": "rm -rf causes too much trouble. Trust me.",
+    "link": "https://github.com/andreafrancia/trash-cli"
+  },
+  "tree": {
+    "title": "tree",
+    "description": "Where am I?",
+    "link": "http://mama.indstate.edu/users/ice/tree/"
   },
   "truecrypt": {
     "title": "TrueCrypt",
@@ -118,95 +219,6 @@
     "description": "Play any movie.",
     "link": "http://www.videolan.org/",
     "image": true
-  },
-  "checkinstall": {
-    "title": "checkinstall",
-    "description": "Manage your make builds with dpkg.",
-    "link": "http://asic-linux.com.mx/~izto/checkinstall/"
-  },
-  "cloc": {
-    "title": "cloc",
-    "description": "Count lines of code.",
-    "link": "http://cloc.sourceforge.net/"
-  },
-  "curl": {
-    "title": "curl",
-    "description": "Download from the web.",
-    "link": "http://curl.haxx.se/"
-  },
-  "disper": {
-    "title": "disper",
-    "description": "Switch displays with ease.",
-    "link": "http://willem.engen.nl/projects/disper/",
-    "image": true
-  },
-  "elinks": {
-    "title": "elinks",
-    "description": "Browse in text mode from terminal.",
-    "link": "http://elinks.or.cz/"
-  },
-  "fish": {
-    "title": "fish",
-    "description": "BASH replacement. Simple syntax, colorful prompt, easy to pick up.",
-    "link": "http://fishshell.com/",
-    "image": true
-  },
-  "flac": {
-    "title": "flac",
-    "description": "because music should be distributed in purest form.",
-    "link": "https://xiph.org/flac/",
-    "image": true
-  },
-  "git": {
-    "title": "git",
-    "description": "Version everything.",
-    "link": "http://git-scm.com/",
-    "image": true
-  },
-  "lame": {
-    "title": "lame",
-    "description": "Sometimes you need those MP3, right?",
-    "link": "http://lame.sourceforge.net/",
-    "image": true
-  },
-  "parallel": {
-    "title": "parallel",
-    "description": "Run tasks in parallel.",
-    "link": "http://www.gnu.org/software/parallel/",
-    "image": true
-  },
-  "sox": {
-    "title": "sox",
-    "description": "Audio converter for humans.",
-    "link": "http://sox.sourceforge.net/",
-    "image": true
-  },
-  "sponge": {
-    "title": "sponge",
-    "description": "Soak up all piped output to processed file with no harm.",
-    "link": "https://joeyh.name/code/moreutils/"
-  },
-  "subversion": {
-    "title": "subversion",
-    "description": "You might need this versioning system for old apps.",
-    "link": "https://subversion.apache.org/",
-    "image": true
-  },
-  "timidity": {
-    "title": "timidity",
-    "description": "MIDI sequencer.",
-    "link": "http://timidity.sourceforge.net/",
-    "image": true
-  },
-  "trash-cli": {
-    "title": "trash-cli",
-    "description": "rm -rf causes too much trouble. Trust me.",
-    "link": "https://github.com/andreafrancia/trash-cli"
-  },
-  "tree": {
-    "title": "tree",
-    "description": "Where am I?",
-    "link": "http://mama.indstate.edu/users/ice/tree/"
   },
   "xsel": {
     "title": "xsel",

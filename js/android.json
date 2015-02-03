@@ -1,12 +1,4 @@
 {
-  "com.sand.airdroid": {
-    "title": "AirDroid",
-    "description": "Easily send files from your computer to your Android phone. Send SMS from your favorite web browser with ease."
-  },
-  "pl.allegro": {
-    "title": "Allegro",
-    "description": "Check product prices in Poland easily."
-  },
   "com.piriform.ccleaner": {
     "title": "CCleaner",
     "description": "When your available internal phone memory is lacking, it helps you to clean the crap."
@@ -22,10 +14,6 @@
   "com.facebook.orca": {
     "title": "Facebook Messenger",
     "description": "The heart of Facebook."
-  },
-  "com.github.mobile": {
-    "title": "GitHub",
-    "description": "GitHub mobile client. What else do you want?"
   },
   "com.google.android.gm": {
     "title": "Gmail",
@@ -91,6 +79,10 @@
     "title": "jakdojade.pl",
     "description": "Find best public transport routes in major Polish cities without problems."
   },
+  "com.google.android.apps.messaging": {
+    "title": "Messenger",
+    "description": "Very simple and good looking messaging app."
+  },
   "com.musixmatch.android.lyrify": {
     "title": "musiXmatch Lyrics",
     "description": "View lyrics while playing music in for e.g. Spotify."
@@ -115,10 +107,6 @@
     "title": "Spotify",
     "description": "My favorite music app. Spotify has a catalog of over 20 million songs. With Spotify Premium you can download your music for offline listening (even music from outside the catalog)."
   },
-  "eu.chainfire.supersu": {
-    "title": "SuperSU",
-    "description": "Allow applications to request superuser rights."
-  },
   "com.nuance.swype.dtc": {
     "title": "Swype",
     "description": "Best keyboard for touch devices."
@@ -126,10 +114,6 @@
   "com.jumobile.manager.systemapp": {
     "title": "System app remover",
     "description": "Remove bloatware."
-  },
-  "com.textra": {
-    "title": "Textra",
-    "description": "Feature rich SMS/MMS app replacement."
   },
   "ch.bitspin.timely": {
     "title": "Timely",
@@ -139,9 +123,9 @@
     "title": "Torch LED Flashlight",
     "description": "Allow your screen to become a big on/off button for your mobile phone camera flashlight."
   },
-  "com.twitter.android": {
-    "title": "Twitter",
-    "description": "Read what is on famous people mind."
+  "org.cohortor.gstringsng": {
+    "title": "Waves",
+    "description": "Better version of gStrings tuner."
   },
   "org.wikipedia": {
     "title": "Wikipedia",

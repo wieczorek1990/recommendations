@@ -9,7 +9,7 @@ for platform in platforms debian windows
     set base (basename $file .svg)
     set png {$base}.png
     inkscape -z -e $png $file
-    cwebp $png -o {$base}.webp
+    cwebp -q 100 $png -o {$base}.webp
     rm $png
   end
 end
