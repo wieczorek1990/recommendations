@@ -1,8 +1,8 @@
 {
-  "adblock-plus": {
-    "title": "Adblock Plus",
+  "adblock": {
+    "title": "Adblock",
     "description": "No adds, no distractions.",
-    "id": "cfhdojbkjhnklbpkdaibdccddilifddb"
+    "id": "gighmmpiobklfepjocnamgkkbiglidom"
   },
   "bookmark-checker": {
     "title": "Bookmark Checker",
@@ -14,10 +14,30 @@
     "description": "Customize your reading experience.",
     "id": "iooicodkiihhpojmmeghjclgihfjdjhj"
   },
+  "colorzilla": {
+    "title": "ColorZilla",
+    "description": "Pick up any color from website you see.",
+    "id": "bhlhnicpbhignbdhedgjhgdocnmhomnp"
+  },
+  "hangouts": {
+    "title": "Google Hangouts",
+    "description": "Communicate easily.",
+    "id": "nckgahadagoaajjgafhacjanaoiihapd"
+  },
+  "jsonview": {
+    "title": "JSONView",
+    "description": "Try this if you need to read JSON.",
+    "id": "chklaanhfefbnpoihckbnefhakgolnmc"
+  },
   "lastfm-scrobbler": {
     "title": "Last.fm Scrobbler",
     "description": "Scrobble to Last.fm on Youtube and many other sites.",
     "id": "hhinaapppaileiechjoiifaancjggfjm"
+  },
+  "pushbullet": {
+    "title": "Pushbullet",
+    "description": "Sned SMS messages from browser.",
+    "id": "chlffgpmiacpedhhbkiomidkjlcfhogd"
   },
   "show-apps-in-new-tab": {
     "title": "Show Apps in new tab",
