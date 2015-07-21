@@ -29,6 +29,11 @@
     "description": "Store files in the cloud.",
     "link": "https://www.dropbox.com/"
   },
+  "dvd-audio-extractor": {
+    "title": "DVD Audio Extractor",
+    "description": "Solution for extracting audio files from DVD-Audio discs.",
+    "link": "http://www.dvdae.com/"
+  },
   "filehippo": {
     "title": "Filehippo App Manager",
     "description": "Manage your apps versions.",

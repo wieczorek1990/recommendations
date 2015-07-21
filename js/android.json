@@ -1,170 +1,170 @@
 {
-  "com.piriform.ccleaner": {
-    "title": "CCleaner",
-    "description": "When your available internal phone memory is lacking, it helps you to clean the crap."
-  },
-  "com.dropbox.android": {
-    "title": "Dropbox",
-    "description": "Access your files from the cloud on your mobile device."
-  },
-  "com.facebook.katana": {
-    "title": "Facebook",
-    "description": "Enjoy social media on the go."
-  },
-  "com.facebook.orca": {
-    "title": "Facebook Messenger",
-    "description": "The heart of Facebook."
-  },
-  "com.google.android.gm": {
-    "title": "Gmail",
-    "description": "Your pocket inbox."
-  },
-  "com.google.android.calendar": {
-    "title": "Google Calendar",
-    "description": "Replace your stock calendar and never look back."
-  },
-  "com.google.android.GoogleCamera": {
-    "title": "Google Camera",
-    "description": "Fancy camera from Google."
-  },
-  "com.android.chrome": {
-    "title": "Google Chrome",
-    "description": "A must have mobile web browser."
-  },
-  "com.google.android.apps.docs.editors.docs": {
-    "title": "Google Docs",
-    "description": "Read documents stored in Google cloud."
-  },
-  "com.google.android.apps.docs": {
-    "title": "Google Drive",
-    "description": "Read and edit your online documents."
-  },
-  "com.google.android.keep": {
-    "title": "Google Keep",
-    "description": "Keep your notes always with you."
-  },
-  "com.google.android.apps.maps": {
-    "title": "Google Maps",
-    "description": "Don't get lost in the wild."
-  },
-  "com.google.android.apps.genie.geniewidget": {
-    "title": "Google News & Weather",
-    "description": "Source of popular news."
-  },
-  "com.google.android.launcher": {
-    "title": "Google Now Launcher",
-    "description": "Replace your ugly looking apps launcher with this one."
-  },
-  "com.google.android.tts": {
-    "title": "Google Text-to-Speech",
-    "description": "With it you can hear the pronounciation of many different languages in Google Translate."
-  },
-  "com.google.android.apps.translate": {
-    "title": "Google Translate",
-    "description": "It doesn't do the whole translation work for you, but it's a good start. Check your spelling anytime you want."
-  },
-  "org.cohortor.gstrings": {
-    "title": "gStrings",
-    "description": "Best guitar tuner out there!"
-  },
-  "com.google.android.apps.inbox": {
-    "title": "Inbox by Gmail",
-    "description": "Mark messages as ready, delayed or pinned. Enjoy categorized emails."
-  },
-  "com.irccloud.android": {
-    "title": "IRCCloud",
-    "description": "Best internet relay chat client on the market."
-  },
-  "com.citynav.jakdojade.pl.android": {
-    "title": "jakdojade.pl",
-    "description": "Find best public transport routes in major Polish cities without problems."
-  },
-  "com.google.android.apps.messaging": {
-    "title": "Messenger",
-    "description": "Very simple and good looking messaging app."
-  },
-  "com.musixmatch.android.lyrify": {
-    "title": "musiXmatch Lyrics",
-    "description": "View lyrics while playing music in for e.g. Spotify."
-  },
-  "com.pmp.biblia": {
-    "title": "Pismo Święte",
-    "description": "Great free bible/prayer app in Polish."
-  },
-  "com.phyora.apps.reddit_now": {
-    "title": "Reddit Now",
-    "description": "Good looking reddit.com client."
-  },
-  "com.skype.raider": {
-    "title": "Skype",
-    "description": "Hopefully it will replace my phone calls in the future."
-  },
-  "com.stt.android": {
-    "title": "Sports Tracker",
-    "description": "Intuitive and good looking sports tracking app."
-  },
-  "com.spotify.music": {
-    "title": "Spotify",
-    "description": "My favorite music app. Spotify has a catalog of over 20 million songs. With Spotify Premium you can download your music for offline listening (even music from outside the catalog)."
-  },
-  "com.nuance.swype.dtc": {
-    "title": "Swype",
-    "description": "Best keyboard for touch devices."
-  },
-  "com.jumobile.manager.systemapp": {
-    "title": "System app remover",
-    "description": "Remove bloatware."
-  },
-  "ch.bitspin.timely": {
-    "title": "Timely",
-    "description": "Fabulously looking alarm clock."
-  },
-  "com.colinmcdonough.android.torchics": {
-    "title": "Torch LED Flashlight",
-    "description": "Allow your screen to become a big on/off button for your mobile phone camera flashlight."
-  },
-  "org.cohortor.gstringsng": {
-    "title": "Waves",
-    "description": "Better version of gStrings tuner."
-  },
-  "org.wikipedia": {
-    "title": "Wikipedia",
-    "description": "Free encyclopedia in your pocket."
-  },
-  "com.facebook.lite": {
-    "title": "Facebook Lite",
-    "description": "Even smaller Facebook."
-  },
-  "com.duckduckgo.mobile.android": {
-    "title": "DuckDuckGo",
-    "description": "Alternative search engine."
-  },
-  "com.google.android.talk": {
-    "title": "Hangouts",
-    "description": "Chat client from Google."
-  },
-  "com.itbenefit.android.calendar": {
-    "title": "Calendar Widget",
-    "description": "Extremely good looking calendar widget for your desktop."
-  },
-  "com.google.zxing.client.android": {
-    "title": "Barcode Scanner",
-    "description": "Fast & easy barcode scanning."
-  },
-  "com.google.android.inputmethod.latin": {
-    "title": "Google Keyboard",
-    "description": "Alternative for Swipe."
-  },
-  "com.google.android.play.games": {
-    "title": "Google Play Games",
-    "description": "Sync your in-game progress between devices."
-  },
-  "com.pushbullet.android": {
-    "title": "Pushbullet",
-    "description": "Ease your interaction with mobile while working on the PC."
-  },
-  "com.google.android.apps.photos": {
-    "title": "Google Photos",
-    "description": "Sync your photos not to lose them."
-  }
+   "com.google.zxing.client.android":{
+      "title":"Barcode Scanner",
+      "description":"Fast & easy barcode scanning."
+   },
+   "com.itbenefit.android.calendar":{
+      "title":"Calendar Widget",
+      "description":"Extremely good looking calendar widget for your desktop."
+   },
+   "com.piriform.ccleaner":{
+      "title":"CCleaner",
+      "description":"When your available internal phone memory is lacking, it helps you to clean the crap."
+   },
+   "com.dropbox.android":{
+      "title":"Dropbox",
+      "description":"Access your files from the cloud on your mobile device."
+   },
+   "com.duckduckgo.mobile.android":{
+      "title":"DuckDuckGo",
+      "description":"Alternative search engine."
+   },
+   "com.facebook.katana":{
+      "title":"Facebook",
+      "description":"Enjoy social media on the go."
+   },
+   "com.facebook.lite":{
+      "title":"Facebook Lite",
+      "description":"Even smaller Facebook."
+   },
+   "com.facebook.orca":{
+      "title":"Facebook Messenger",
+      "description":"The heart of Facebook."
+   },
+   "com.google.android.gm":{
+      "title":"Gmail",
+      "description":"Your pocket inbox."
+   },
+   "com.google.android.calendar":{
+      "title":"Google Calendar",
+      "description":"Replace your stock calendar and never look back."
+   },
+   "com.google.android.GoogleCamera":{
+      "title":"Google Camera",
+      "description":"Fancy camera from Google."
+   },
+   "com.android.chrome":{
+      "title":"Google Chrome",
+      "description":"A must have mobile web browser."
+   },
+   "com.google.android.apps.docs.editors.docs":{
+      "title":"Google Docs",
+      "description":"Read documents stored in Google cloud."
+   },
+   "com.google.android.apps.docs":{
+      "title":"Google Drive",
+      "description":"Read and edit your online documents."
+   },
+   "com.google.android.keep":{
+      "title":"Google Keep",
+      "description":"Keep your notes always with you."
+   },
+   "com.google.android.inputmethod.latin":{
+      "title":"Google Keyboard",
+      "description":"Alternative for Swipe."
+   },
+   "com.google.android.apps.maps":{
+      "title":"Google Maps",
+      "description":"Don't get lost in the wild."
+   },
+   "com.google.android.apps.genie.geniewidget":{
+      "title":"Google News & Weather",
+      "description":"Source of popular news."
+   },
+   "com.google.android.launcher":{
+      "title":"Google Now Launcher",
+      "description":"Replace your ugly looking apps launcher with this one."
+   },
+   "com.google.android.apps.photos":{
+      "title":"Google Photos",
+      "description":"Sync your photos not to lose them."
+   },
+   "com.google.android.play.games":{
+      "title":"Google Play Games",
+      "description":"Sync your in-game progress between devices."
+   },
+   "com.google.android.tts":{
+      "title":"Google Text-to-Speech",
+      "description":"With it you can hear the pronounciation of many different languages in Google Translate."
+   },
+   "com.google.android.apps.translate":{
+      "title":"Google Translate",
+      "description":"It doesn't do the whole translation work for you, but it's a good start. Check your spelling anytime you want."
+   },
+   "org.cohortor.gstrings":{
+      "title":"gStrings",
+      "description":"Best guitar tuner out there!"
+   },
+   "com.google.android.talk":{
+      "title":"Hangouts",
+      "description":"Chat client from Google."
+   },
+   "com.google.android.apps.inbox":{
+      "title":"Inbox by Gmail",
+      "description":"Mark messages as ready, delayed or pinned. Enjoy categorized emails."
+   },
+   "com.irccloud.android":{
+      "title":"IRCCloud",
+      "description":"Best internet relay chat client on the market."
+   },
+   "com.citynav.jakdojade.pl.android":{
+      "title":"jakdojade.pl",
+      "description":"Find best public transport routes in major Polish cities without problems."
+   },
+   "com.google.android.apps.messaging":{
+      "title":"Messenger",
+      "description":"Very simple and good looking messaging app."
+   },
+   "com.musixmatch.android.lyrify":{
+      "title":"musiXmatch Lyrics",
+      "description":"View lyrics while playing music in for e.g. Spotify."
+   },
+   "com.pmp.biblia":{
+      "title":"Pismo Święte",
+      "description":"Great free bible/prayer app in Polish."
+   },
+   "com.pushbullet.android":{
+      "title":"Pushbullet",
+      "description":"Ease your interaction with mobile while working on the PC."
+   },
+   "com.phyora.apps.reddit_now":{
+      "title":"Reddit Now",
+      "description":"Good looking reddit.com client."
+   },
+   "com.skype.raider":{
+      "title":"Skype",
+      "description":"Hopefully it will replace my phone calls in the future."
+   },
+   "com.stt.android":{
+      "title":"Sports Tracker",
+      "description":"Intuitive and good looking sports tracking app."
+   },
+   "com.spotify.music":{
+      "title":"Spotify",
+      "description":"My favorite music app. Spotify has a catalog of over 20 million songs. With Spotify Premium you can download your music for offline listening (even music from outside the catalog)."
+   },
+   "com.nuance.swype.dtc":{
+      "title":"Swype",
+      "description":"Best keyboard for touch devices."
+   },
+   "com.jumobile.manager.systemapp":{
+      "title":"System app remover",
+      "description":"Remove bloatware."
+   },
+   "ch.bitspin.timely":{
+      "title":"Timely",
+      "description":"Fabulously looking alarm clock."
+   },
+   "com.colinmcdonough.android.torchics":{
+      "title":"Torch LED Flashlight",
+      "description":"Allow your screen to become a big on/off button for your mobile phone camera flashlight."
+   },
+   "org.cohortor.gstringsng":{  
+      "title":"Waves",
+      "description":"Better version of gStrings tuner."
+   },
+   "org.wikipedia":{
+      "title":"Wikipedia",
+      "description":"Free encyclopedia in your pocket."
+   }
 }
