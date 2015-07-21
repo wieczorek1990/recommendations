@@ -130,5 +130,41 @@
   "org.wikipedia": {
     "title": "Wikipedia",
     "description": "Free encyclopedia in your pocket."
+  },
+  "com.facebook.lite": {
+    "title": "Facebook Lite",
+    "description": "Even smaller Facebook."
+  },
+  "com.duckduckgo.mobile.android": {
+    "title": "DuckDuckGo",
+    "description": "Alternative search engine."
+  },
+  "com.google.android.talk": {
+    "title": "Hangouts",
+    "description": "Chat client from Google."
+  },
+  "com.itbenefit.android.calendar": {
+    "title": "Calendar Widget",
+    "description": "Extremely good looking calendar widget for your desktop."
+  },
+  "com.google.zxing.client.android": {
+    "title": "Barcode Scanner",
+    "description": "Fast & easy barcode scanning."
+  },
+  "com.google.android.inputmethod.latin": {
+    "title": "Google Keyboard",
+    "description": "Alternative for Swipe."
+  },
+  "com.google.android.play.games": {
+    "title": "Google Play Games",
+    "description": "Sync your in-game progress between devices."
+  },
+  "com.pushbullet.android": {
+    "title": "Pushbullet",
+    "description": "Ease your interaction with mobile while working on the PC."
+  },
+  "com.google.android.apps.photos": {
+    "title": "Google Photos",
+    "description": "Sync your photos not to lose them."
   }
 }

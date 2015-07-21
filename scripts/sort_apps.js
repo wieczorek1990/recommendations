@@ -45,6 +45,6 @@ for (var platform in platforms) {
         console.log(json);
     } catch (err) {
         console.log(err.message);
-        //console.log(err.stack)
+        console.log(err.stack)
     }
 }
